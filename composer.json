@@ -1,0 +1,23 @@
+{
+  "name": "quangthinh/yii2-common",
+  "description": "Common Class",
+  "type": "library",
+  "keywords": ["yii2","extension"],
+  "license": "Apache-2.0",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Quang Thịnh",
+      "email": "quangthinh.dico@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "ramsey/uuid": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "quangthinh\\yii\\common\\": ""
+    }
+  }
+}
